@@ -1,0 +1,14 @@
+!this is an example program
+declare global
+	dec MAX as const <- 10;
+	dec n as var : Integer <- 0;
+do
+	begin
+		getint[var n];
+		if n < 7:
+			putint[const n] 
+		:
+			putint[const MAX]
+		endif;
+		puteol[void];
+	end

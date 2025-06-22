@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Compiler": {
+      "commandName": "Project",
+      "commandLineArgs": "test.sqr example_chars.tam example_chars.txt",
+      "workingDirectory": "../"
+    }
+  }
+}
